@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
@@ -6,20 +6,21 @@
 
 .menu {
     background-color: rgb(0, 0, 0);
-    font-family: 'Courier New', Courier, monospace;   
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;   
 }
 .menu li {
     display: inline;
 }
-.menu li a{
+.menu li a {
     display: inline-block;
     text-decoration: none;
     color: white;
-    padding: 20px;
+    padding: 15px;
     transition: background .3s;
 
 }
-.menu ul li a:hover{
+.menu ul li a:hover {
     background-color: cornflowerblue;
 }
 .nome {
@@ -27,39 +28,51 @@ font-family: 'Courier New', Courier, monospace;
 background-color: cadetblue;
 color: white;
 padding: 20px;
+text-align: center;
 }
 .description {
     background-color: cornflowerblue;
     padding: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
+    text-align: center;
     
 }   
-img, p {
-    display: inline-block;
+.description p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;    
+}
+.description img {
+    border-radius: 100%;
+    width: 150px;  
 }
 .modulos {
     background-color: cadetblue;
     font-family: 'Courier New', Courier, monospace;
     color: white;
     padding: 20px;
+   
     }
-    .modulos li{
-        padding left: 10px;
+    .modulos form {
+        padding: 10px;       
     }
     .habilidades {
         background-color: cadetblue;
         font-family: 'Courier New', Courier, monospace;
         color: white;
         padding: 20px;
+        
         }
-        .habilidades li{
-            padding left: 10px;
-        }
-.footer {
+        .habilidades ul {
+            padding-left: 20px;
+            padding-top: 10px;
+        }        
+        
+    
+    .footer {
     background-color: black;
     color: white;
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
+    text-align: center;
+    font-size: small;
 }
